@@ -6,14 +6,19 @@ POST http://localhost/books
     "title": "Война и мир",
     "description": "Очень интересная книга",
     "author": "Л.Н. Толстой"
+},
+{
+    "title": "Не кричи Волки!",
+    "description": "Увлекательная книга про дикую природу",
+    "author": "Моуэл"
 }
 
-PUT http://localhost/books/23894fycer9f835f
+PUT http://localhost/books/67293e4772b61af5c2491a54
 
 {
-    "title": "Война и мир",
-    "description": "Очень интересная книга",
-    "author": "Л.Н. Толстой"
+    "title": "Не кричи Волки!",
+    "description": "Увлекательная книга про дикую природу",
+    "author": "Фарли Моуэл"
 }
 
-DELETE http://localhost/books/23894fycer9f835f
+DELETE http://localhost/books/67293e4772b61af5c2491a54
