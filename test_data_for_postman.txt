@@ -1,0 +1,19 @@
+GET http://localhost/books
+
+POST http://localhost/books
+
+{
+    "title": "Война и мир",
+    "description": "Очень интересная книга",
+    "author": "Л.Н. Толстой"
+}
+
+PUT http://localhost/books/23894fycer9f835f
+
+{
+    "title": "Война и мир",
+    "description": "Очень интересная книга",
+    "author": "Л.Н. Толстой"
+}
+
+DELETE http://localhost/books/23894fycer9f835f
